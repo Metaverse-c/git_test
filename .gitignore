@@ -1,0 +1,12 @@
+#不追踪.a文件
+*.a
+*.o
+#但是追踪lib.a
+!lib.a
+#忽视TODO文件，不是文件TODO
+/TODO
+#忽视文件
+build/
+#
+doc/*.txt
+
